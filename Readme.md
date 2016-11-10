@@ -54,6 +54,5 @@ See: [ooni-pipeline/13](https://github.com/TheTorProject/ooni-pipeline/issues/13
 
 There is a local copy of all the OONI reports in case you want to download them
 and use them during the hackathon.
-It can be accessed via:
-
-XXX fill me in
+It can be accessed via [HTTP](http://oonicdn.fritz.box), [FTP](ftp://oonicdn.fritz.box)
+as well as via rsync using following endpoint: `rsync oonicdn.fritz.box::oonicdn`.
