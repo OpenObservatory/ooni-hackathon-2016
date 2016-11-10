@@ -23,8 +23,10 @@ on, but feel free to pick also something else!
 ## Add support for testing reachability of Tor bridges
 
 Speak to: @hellais
+
 Difficulty: easy-medium
-Languages: python
+
+Technologies: python
 
 Tor bridges are used by people to circumvent censorship in places where tor is
 blocked. Currently there are tests as part of ooniprobe that support testing
@@ -38,15 +40,20 @@ ooniprobe `tcp_connect` test) see:
 ## Integrate tor related date into tor metrics
 
 Speak to: karsten, @hellais
+
 Difficulty: easy-medium
-Languages: java, python
+
+Technologies: java, R/ggplot2, postgres
 
 Some data that is being collected by OONI is related to the tor network and it
 would be useful to have it integrated inside of [tor
-metrics](https://metrics.torproject.org). In particular it would be useful to
-export all `vanilla_tor` test results in a way that is ingestible by tor
-metrics or write a layer of integration of it inside of the metrics data
-pipeline.
+metrics](https://metrics.torproject.org).
+In particular it would be useful to export all `vanilla_tor` test results in a
+way that is ingestible by tor metrics or write a layer of integration of it
+inside of the metrics data pipeline.
+
+Other interesting sources of data would be the `bridge_reachability` and
+`web_connectivity` tests (`https://www.torproject.org/`).
 
 See: [ooni-pipeline/13](https://github.com/TheTorProject/ooni-pipeline/issues/13)
 
