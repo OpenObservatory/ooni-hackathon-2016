@@ -1,4 +1,7 @@
+![OONI Hackathon 2016](_assets/ooni-berlin-hackathon.png)
+
 # OONI Hackathon 2016
+
 
 Interested in exploring (and exposing) internet censorship? Join the Open
 Observatory of Network Interference (OONI) hackathon in Berlin!
