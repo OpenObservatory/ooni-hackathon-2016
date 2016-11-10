@@ -50,6 +50,16 @@ pipeline.
 
 See: [ooni-pipeline/13](https://github.com/TheTorProject/ooni-pipeline/issues/13)
 
+## Extract blockpages from the data
+
+Speak to: darkk@
+Difficulty: easy-medium
+
+There is hypothesis that blockpages may be extracted from the OONI database in
+semi-automated way using some basic ML (machine learning) and/or NLP (natural
+language processing) techniques independent from the language used for the
+blockpage.
+
 # Useful information
 
 There is a local copy of all the OONI reports in case you want to download them
