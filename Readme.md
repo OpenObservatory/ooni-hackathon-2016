@@ -59,7 +59,7 @@ See: [ooni-pipeline/13](https://github.com/TheTorProject/ooni-pipeline/issues/13
 
 ## Extract blockpages from the data
 
-Speak to: darkk@
+Speak to: @darkk
 Difficulty: easy-medium
 
 There is hypothesis that blockpages may be extracted from the OONI database in
@@ -99,5 +99,8 @@ A similar, already implemented functionality is [the collector client](https://g
 
 There is a local copy of all the OONI reports in case you want to download them
 and use them during the hackathon.
-It can be accessed via [HTTP](http://oonicdn.fritz.box), [FTP](ftp://oonicdn.fritz.box)
-as well as via rsync using following endpoint: `rsync oonicdn.fritz.box::oonicdn`.
+It can be accessed via following means:
+
+- HTTP -- http://oonicdn.fritz.box
+- FTP -- ftp://oonicdn.fritz.box
+- Rsync -- `rsync oonicdn.fritz.box::oonicdn`
