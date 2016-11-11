@@ -101,6 +101,6 @@ There is a local copy of all the OONI reports in case you want to download them
 and use them during the hackathon.
 It can be accessed via following means:
 
-- HTTP -- http://oonicdn.fritz.box
-- FTP -- ftp://oonicdn.fritz.box
-- Rsync -- `rsync oonicdn.fritz.box::oonicdn`
+- HTTP — http://oonicdn.fritz.box
+- FTP — ftp://oonicdn.fritz.box
+- Rsync — `rsync oonicdn.fritz.box::oonicdn`
