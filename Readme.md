@@ -67,6 +67,34 @@ semi-automated way using some basic ML (machine learning) and/or NLP (natural
 language processing) techniques independent from the language used for the
 blockpage.
 
+## Implement header-field-manipulation for measurement-kit
+
+Speak to: @bassosimone, @hellais
+
+Difficulty: easy-medium
+
+The repository to work on is [measurement-kit/measurement-kit](https://github.com/measurement-kit/measurement-kit)
+that contains a C++ implementation of OONI tests currently used on mobile.
+
+The reference specification of the header-field-manipulation test is available
+in the [repository describing OONI specifications](https://github.com/TheTorProject/ooni-spec/blob/d37d22983d766f67ccd528fe50a30773782073c3/test-specs/ts-006-header-field-manipulation.md).
+
+A similar, already-implemented test is [http-invalid-request-line](https://github.com/measurement-kit/measurement-kit/blob/31391f5ab6c12d87f2b73c17ec30cf23832bb059/test/ooni/http_invalid_request_line.cpp).
+
+## Add OONI bouncer API support to measurement-kit
+
+Speak to: @bassosimone, @hellais
+
+Difficulty: easy-medium
+
+The repository to work on is [measurement-kit/measurement-kit](https://github.com/measurement-kit/measurement-kit)
+that contains a C++ implementation of OONI tests currently used on mobile.
+
+The specification of the bouncer API is available in the
+[repository describing OONI specifications](https://github.com/TheTorProject/ooni-spec/blob/7ecb43072ef1022fd5e715c7bcd33ea804eee77d/oonib.md#40-bouncer).
+
+A similar, already implemented functionality is [the collector client](https://github.com/measurement-kit/measurement-kit/blob/31391f5ab6c12d87f2b73c17ec30cf23832bb059/src/libmeasurement_kit/ooni/collector_client.cpp)
+
 # Useful information
 
 There is a local copy of all the OONI reports in case you want to download them
